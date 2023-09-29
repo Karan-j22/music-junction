@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color:blueviolet;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: Roboto,sans-serief;
+}
+
+.brand img{
+    width: 50px;
+    border-radius:25px;
+    padding: 0 4px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color:black;
+    color:white;
+    align-items:center;
+}
+.brand{
+    display:flex;
+    align-items:center;
+}
+nav ul div{
+    display:flex;
+    padding:5px;
+}
+.home{
+    display:flex;
+    justify-content:end;
+    font-size:small;
+}
+div h1{
+    color:pink;
+	}
+.container{
+	min-height:72vh;
+	display:flex;
+	background-color:black;
+	color:white;
+	font-family: 'Ubuntu', Roboto;
+	margin: 25px auto;
+	width:70%;
+	border-radius: 12px;
+	padding: 34px;
+	justify-content:center;
+	background-image:url('bg.jpg')
+}
+#myProgressBar{
+	width: 60vw;
+}
+.bottom{
+	display:flex;
+  flex-direction:column;
+	position: sticky;
+	height: 100px;
+	bottom:0;
+	background-color:black;
+	color:white;
+	align-items:center;
+	justify-content:center;
+}
